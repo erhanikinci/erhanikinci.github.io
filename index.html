@@ -1,309 +1,687 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Erhan İkinci - Full Stack Developer</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <!-- <meta name="description" content="Erhan İkinci Portfolio" /> -->
+    <!-- <meta name="keywords" content="Portfolio, Web Developer, Full Stack Developer" /> -->
+    <!-- <meta
+      name="description"
+      content="Erhan İkinci - Full Stack Developer focused on Laravel, React Native, PHP, TypeScript, SQL, ERP integrations, and scalable business web/mobile applications."
+    /> -->
+	<meta name="description" content="Erhan İkinci - Full Stack Developer focused on Laravel, React Native, PHP, TypeScript, SQL, ERP integrations, and scalable business web/mobile applications." />
+    <!-- <meta
+      name="keywords"
+      content="Erhan İkinci, Full Stack Developer, Laravel Developer, React Native Developer, PHP, TypeScript, JavaScript, SQL, MySQL, ERP Integration, Canias ERP, Mobile Developer"
+    /> -->
+	<meta name="keywords" content="Erhan İkinci, Full Stack Developer, Laravel Developer, React Native Developer, PHP, TypeScript, JavaScript, SQL, MySQL, ERP Integration, Canias ERP, Mobile Developer" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 
-<head>
-	<title>Erhan İkinci - Full Stack Developer</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!-- <meta name="description" content="Erhan İkinci Portfolio" /> -->
-	<!-- <meta name="keywords" content="Portfolio, Web Developer, Full Stack Developer" /> -->
-	 <meta name="description" content="Erhan İkinci - Full Stack Developer focused on Laravel, React Native, PHP, TypeScript, SQL, ERP integrations, and scalable business web/mobile applications.">
-<meta name="keywords" content="Erhan İkinci, Full Stack Developer, Laravel Developer, React Native Developer, PHP, TypeScript, JavaScript, SQL, MySQL, ERP Integration, Canias ERP, Mobile Developer">
-	<link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <style>
+      .header-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
 
-	<style>
-		.header-container {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			justify-content: center;
-			gap: 20px;
-		}
+      .header-text {
+        text-align: center;
+      }
 
-		.header-text {
-			text-align: center;
-		}
+      .language-selector {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 14px;
+      }
 
-		.language-selector {
-			position: absolute;
-			top: 20px;
-			right: 20px;
-			font-size: 14px;
-		}
+      .language-selector a {
+        text-decoration: none;
+        color: #007bff;
+        margin: 0 5px;
+      }
 
-		.language-selector a {
-			text-decoration: none;
-			color: #007bff;
-			margin: 0 5px;
-		}
+      .visitor-counter {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #777;
+      }
+    </style>
 
-		.visitor-counter {
-			text-align: center;
-			margin-top: 20px;
-			font-size: 14px;
-			color: #777;
-		}
-	</style>
+    <!-- Favicon Link -->
+    <link rel="icon" href="images/code-icon.png" type="image/png" />
+  </head>
 
-	<!-- Favicon Link -->
-	<link rel="icon" href="images/code-icon.png" type="image/png" />
-</head>
+  <body class="is-preload">
+    <!-- Dil Seçici -->
+    <div class="language-selector"><a href="#">EN</a> | <a href="#">TR</a></div>
 
-<body class="is-preload">
-
-	<!-- Dil Seçici -->
-	<div class="language-selector">
-		<a href="#">EN</a> | <a href="#">TR</a>
-	</div>
-
-	<!-- Wrapper -->
-	<div id="wrapper">
-
-		<!-- Intro -->
-		<section class="intro">
-			<header>
-				<h1>Erhan İkinci</h1>
-				<!-- <p>A passionate developer with expertise in full-stack web-mobile development.</p> -->
-				 <p>
-					<!-- Full Stack Developer specializing in Laravel, React Native, PHP, TypeScript,
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Intro -->
+      <section class="intro">
+        <header>
+          <h1>Erhan İkinci</h1>
+          <!-- <p>A passionate developer with expertise in full-stack web-mobile development.</p> -->
+          <p>
+            <!-- Full Stack Developer specializing in Laravel, React Native, PHP, TypeScript,
 					SQL reporting, ERP integrations, and scalable business web & mobile applications. -->
 
-					Full Stack Developer specializing in Laravel, React Native, TypeScript, JavaScript, PHP, SQL reporting, Canias ERP integrations, and scalable enterprise web & mobile applications.
-				</p>
+            Full Stack Developer specializing in Laravel, React Native,
+            TypeScript, JavaScript, PHP, SQL reporting, Canias ERP integrations,
+            and scalable enterprise web & mobile applications.
+          </p>
 
-				<ul class="actions">
-					<li><a href="#about-me" class="arrow scrolly"><span class="label">Learn More</span></a></li>
-				</ul>
-			</header>
-			<div class="content"
-				style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 20px;">
-				<div style="text-align: center;">
-					<img src="images/profile.jpg" alt="Profile Picture"
-						style="max-width: 150px; height: auto; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" />
-					<p style="margin-top: 15px; font-size: 16px; color: #555;">
-						Hi, I’m Erhan, a creative and detail-oriented developer passionate about crafting user-centric
-						solutions.
-					</p>
-					<!-- <h1 style="font-size: 48px; font-weight: bold; margin-bottom: 10px;"> SR. Erhan İkinci</h1> -->
-					<p style="font-size: 18px; color: #555;">Specialized in building scalable web and mobile
-						applications with modern technologies.</p>
-					<!-- <hr style="width: 50px; margin: 10px auto; border: 2px solid #007bff;"> -->
-				</div>
-				<div style="text-align: center; margin-top: 20px;">
-					<!-- Download Resume Button -->
-					<!-- <a href="file:///C:/Users/erhan.ikinci/Desktop/erhangithubprojects/erhanikinci.github.io/assets/Erhan_IKINCI_CV_EN.pdf"
+          <ul class="actions">
+            <li>
+              <a href="#about-me" class="arrow scrolly"
+                ><span class="label">Learn More</span></a
+              >
+            </li>
+          </ul>
+        </header>
+        <div
+          class="content"
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+          "
+        >
+          <div style="text-align: center">
+            <img
+              src="images/profile.jpg"
+              alt="Profile Picture"
+              style="
+                max-width: 150px;
+                height: auto;
+                border-radius: 50%;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              "
+            />
+            <p style="margin-top: 15px; font-size: 16px; color: #555">
+              Hi, I’m Erhan, a creative and detail-oriented developer passionate
+              about crafting user-centric solutions.
+            </p>
+            <!-- <h1 style="font-size: 48px; font-weight: bold; margin-bottom: 10px;"> SR. Erhan İkinci</h1> -->
+            <p style="font-size: 18px; color: #555">
+              Specialized in building scalable web and mobile applications with
+              modern technologies.
+            </p>
+            <!-- <hr style="width: 50px; margin: 10px auto; border: 2px solid #007bff;"> -->
+          </div>
+          <div style="text-align: center; margin-top: 20px">
+            <!-- Download Resume Button -->
+            <!-- <a href="file:///C:/Users/erhan.ikinci/Desktop/erhangithubprojects/erhanikinci.github.io/assets/Erhan_IKINCI_CV_EN.pdf"
 						download
 						style="text-decoration: none; background: #007bff; color: white; padding: 10px 20px; border-radius: 5px; margin: 0 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: 0.3s; display: inline-flex; align-items: center;"
 						onmouseover="this.style.background='#0056b3';" onmouseout="this.style.background='#007bff';">
 						<i class="fas fa-download" style="margin-right: 10px; font-size: 16px;"></i>Download Resume
 					</a> -->
-					<!-- <a href="assets/Erhan_IKINCI_CV_EN.pdf" download -->
-					<a href="assets/Erhan_Ikinci_CV_E.pdf" download
-						class="button primary">
-						<i class="fas fa-download"></i> Download Resume
-					</a>
+            <!-- <a href="assets/Erhan_IKINCI_CV_EN.pdf" download -->
+            <a
+              href="assets/Erhan_Ikinci_CV_E.pdf"
+              download
+              class="button primary"
+            >
+              <i class="fas fa-download"></i> Download Resume
+            </a>
 
-					<!-- Contact Me Button -->
-					<a href="mailto:erhanikinci61@gmail.com" title="Send an email to Erhan"
-						style="text-decoration: none; background: #28a745; color: white; padding: 10px 20px; border-radius: 5px; margin: 0 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: 0.3s; display: inline-flex; align-items: center;"
-						onmouseover="this.style.background='#218838';" onmouseout="this.style.background='#28a745';">
-						<i class="fas fa-envelope" style="margin-right: 10px; font-size: 16px;"></i>Contact Me
-					</a>
+            <!-- Contact Me Button -->
+            <a
+              href="mailto:erhanikinci61@gmail.com"
+              title="Send an email to Erhan"
+              style="
+                text-decoration: none;
+                background: #28a745;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                margin: 0 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: 0.3s;
+                display: inline-flex;
+                align-items: center;
+              "
+              onmouseover="this.style.background = '#218838'"
+              onmouseout="this.style.background = '#28a745'"
+            >
+              <i
+                class="fas fa-envelope"
+                style="margin-right: 10px; font-size: 16px"
+              ></i
+              >Contact Me
+            </a>
+          </div>
 
-				</div>
+          <!-- <div class="visitor-counter">
+            <p>Visited by <strong>10,000+ developers worldwide</strong></p>
+          </div> -->
+          <div style="text-align: center">
+            <h3 style="margin-bottom: 15px; font-size: 16px; color: #333">
+              Programming Languages & Tools
+            </h3>
+            <!-- <ul
+              style="
+                list-style: none;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                justify-content: center;
+              "
+            > -->
 
-				<div class="visitor-counter">
-					<!-- <p>Visited by <strong>10,000+ developers worldwide</strong></p> -->
-				</div>
-				<div style="text-align: center;">
-					<h3 style="margin-bottom: 15px; font-size: 16px; color: #333;">Programming Languages & Tools</h3>
-					<ul
-						style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-						<li
-							style="background: #007bff; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-php-plain" style="font-size: 12px;"></i>
-							<span>PHP</span>
-						</li>
-						<li
-							style="background: #f0ad4e; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-laravel-original" style="font-size: 12px;"></i>
-							<span>Laravel</span>
-						</li>
-						<li
-							style="background: #6f42c1; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-javascript-plain" style="font-size: 12px;"></i>
-							<span>JavaScript</span>
-						</li>
+			<ul
+  style="
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 720px;
+  "
+>
 
-						<li
-    style="background: #512BD4; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
-    <i class="devicon-dotnetcore-plain" style="font-size: 12px;"></i>
-    <span>ASP.NET Core</span>
-</li>
+              <li
+                style="
+                  background: #007bff;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-php-plain" style="font-size: 12px"></i>
+                <span>PHP</span>
+              </li>
+              <li
+                style="
+                  background: #f0ad4e;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-laravel-original" style="font-size: 12px"></i>
+                <span>Laravel</span>
+              </li>
+              <li
+                style="
+                  background: #6f42c1;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-javascript-plain" style="font-size: 12px"></i>
+                <span>JavaScript</span>
+              </li>
 
-<li
-    style="background: #06b6d4; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
-    <i class="devicon-tailwindcss-plain" style="font-size: 12px;"></i>
-    <span>TailwindCSS</span>
-</li>
+              <li
+                style="
+                  background: #512bd4;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                "
+              >
+                <i class="devicon-dotnetcore-plain" style="font-size: 12px"></i>
+                <span>ASP.NET Core</span>
+              </li>
 
-<!-- <li
-    style="background: #7952b3; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
+              <li
+                style="
+                  background: #06b6d4;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                "
+              >
+                <i
+                  class="devicon-tailwindcss-plain"
+                  style="font-size: 12px"
+                ></i>
+                <span>TailwindCSS</span>
+              </li>
+
+              <!-- <li
+    style="background: #7952b3; color: white; padding: 8px 12px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
     <i class="devicon-bootstrap-plain" style="font-size: 12px;"></i>
     <span>Bootstrap</span>
 </li> -->
 
-<li
-    style="background: #f39c12; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
-    <i class="fas fa-network-wired" style="font-size: 12px;"></i>
-    <span>ERP Integration</span>
-</li>
+              <li
+                style="
+                  background: #f39c12;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                "
+              >
+                <i class="fas fa-network-wired" style="font-size: 12px"></i>
+                <span>ERP Integration</span>
+              </li>
 
-<li
-    style="background: #34495e; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
-    <i class="fas fa-cogs" style="font-size: 12px;"></i>
-    <span>Canias ERP</span>
-</li>
+              <li
+                style="
+                  background: #34495e;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                "
+              >
+                <i class="fas fa-cogs" style="font-size: 12px"></i>
+                <span>Canias ERP</span>
+              </li>
 
-<li
-    style="background: #00758f; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
-    <i class="fas fa-database" style="font-size: 12px;"></i>
-    <span>MySQL</span>
-</li>
+              <li
+                style="
+                  background: #00758f;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                "
+              >
+                <i class="fas fa-database" style="font-size: 12px"></i>
+                <span>MySQL</span>
+              </li>
 
-<li
-    style="background: #336791; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
-    <i class="fas fa-server" style="font-size: 12px;"></i>
-    <span>SQL Reporting</span>
-</li>
+              <li
+                style="
+                  background: #336791;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                "
+              >
+                <i class="fas fa-server" style="font-size: 12px"></i>
+                <span>SQL Reporting</span>
+              </li>
 
-<li
-    style="background: #ff6b35; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px;">
-    <i class="fas fa-plug" style="font-size: 12px;"></i>
-    <span>REST API</span>
-</li>
+              <li
+                style="
+                  background: #ff6b35;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                "
+              >
+                <i class="fas fa-plug" style="font-size: 12px"></i>
+                <span>REST API</span>
+              </li>
 
-
-						<!-- <li
-							style="background: #e34f26; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <!-- <li
+							style="background: #e34f26; color: white; padding: 8px 12px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 							<i class="devicon-html5-plain" style="font-size: 12px;"></i>
 							<span>HTML5</span>
 						</li> -->
-						<!-- <li
-							style="background: #563d7c; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <!-- <li
+							style="background: #563d7c; color: white; padding: 8px 12px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 							<i class="devicon-css3-plain" style="font-size: 12px;"></i>
 							<span>CSS3</span>
 						</li> -->
-						<li
-							style="background: #47a248; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-mongodb-plain" style="font-size: 12px;"></i>
-							<span>MongoDB</span>
-						</li>
-						<li
-							style="background: #c6538c; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-sequelize-plain" style="font-size: 12px;"></i>
-							<span>Sequelize</span>
-						</li>
-						<li
-							style="background: #68a063; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-nodejs-line" style="font-size: 12px;"></i>
-							<span>Node.js</span>
-						</li>
-						<li
-							style="background: #0070f3; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-nextjs-plain" style="font-size: 12px;"></i>
-							<span>Next.js</span>
-						</li>
-						<li
-							style="background: #61dafb; color: black; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-react-original" style="font-size: 12px;"></i>
-							<span>React.js</span>
-						</li>
-						<li
-							style="background: #3178c6; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-typescript-plain" style="font-size: 12px;"></i>
-							<span>TypeScript</span>
-						</li>
-						<li
-							style="background: #61dafb; color: black; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-react-original" style="font-size: 12px;"></i>
-							<span>React Native</span>
-						</li>
-						<li
-							style="background: #dd4b39; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-codeigniter-plain" style="font-size: 12px;"></i>
-							<span>CodeIgniter 4</span>
-						</li>
-						<!-- <li
-							style="background: #f39c12; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<span>Canias ERP</span>
-						</li>
-						<li
-							style="background: #512BD4; color: white; padding: 12px 16px; border-radius: 12px; display: flex; align-items: center; gap: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-							<i class="devicon-dotnetcore-plain" style="font-size: 12px;"></i>
-							<span>.NET</span> -->
-						</li>
-					</ul>
-				</div>
+              <li
+                style="
+                  background: #47a248;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-mongodb-plain" style="font-size: 12px"></i>
+                <span>MongoDB</span>
+              </li>
+              <li
+                style="
+                  background: #c6538c;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-sequelize-plain" style="font-size: 12px"></i>
+                <span>Sequelize</span>
+              </li>
+              <li
+                style="
+                  background: #68a063;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-nodejs-line" style="font-size: 12px"></i>
+                <span>Node.js</span>
+              </li>
+              <li
+                style="
+                  background: #0070f3;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-nextjs-plain" style="font-size: 12px"></i>
+                <span>Next.js</span>
+              </li>
+              <li
+                style="
+                  background: #61dafb;
+                  color: black;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-react-original" style="font-size: 12px"></i>
+                <span>React.js</span>
+              </li>
+              <li
+                style="
+                  background: #3178c6;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-typescript-plain" style="font-size: 12px"></i>
+                <span>TypeScript</span>
+              </li>
+              <li
+                style="
+                  background: #61dafb;
+                  color: black;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-react-original" style="font-size: 12px"></i>
+                <span>React Native</span>
+              </li>
+              <li
+                style="
+                  background: #dd4b39;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i
+                  class="devicon-codeigniter-plain"
+                  style="font-size: 12px"
+                ></i>
+                <span>CodeIgniter 4</span>
+              </li>
+              <!-- <li
+                style="
+                  background: #f39c12;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <span>Canias ERP</span>
+              </li> -->
+              <li
+                style="
+                  background: #512bd4;
+                  color: white;
+                  padding: 8px 12px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                "
+              >
+                <i class="devicon-dotnetcore-plain" style="font-size: 12px"></i>
+                <span>.NET</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-			</div>
-		</section>
+      <!-- About Me -->
+      <!-- <section id="about-me"> -->
+		<section id="about-me" style="padding-top: 100px;">
+        <header>
+          <h2>About Me</h2>
+        </header>
+        <div class="content">
+          <p><strong>Who am I?</strong></p>
+          <p>
+            I am a well-qualified Full Stack Developer with a passion for
+            technology and innovation. I have experience in both backend and
+            frontend development, making me a versatile asset for any project.
+            Beyond coding, I thrive on analyzing complex problems and designing
+            optimal solutions that drive business success. My strong foundation
+            in software engineering principles ensures high-quality and
+            maintainable software. Whether it’s building secure APIs, optimizing
+            database queries, or crafting intuitive user interfaces, I am
+            dedicated to delivering exceptional results that exceed
+            expectations.
+          </p>
+          <ul
+            style="
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              font-size: 16px;
+              line-height: 1.8;
+              color: #333;
+            "
+          >
+            <li
+              style="
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 10px;
+              "
+            >
+              <i
+                class="fas fa-envelope"
+                style="color: #007bff; font-size: 18px"
+              ></i>
+              <span
+                ><strong>Email:</strong>
+                <a
+                  href="mailto:erhanikinci61@gmail.com"
+                  style="color: #007bff; text-decoration: none"
+                  >erhanikinci61@gmail.com</a
+                ></span
+              >
+            </li>
+            <li
+              style="
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 10px;
+              "
+            >
+              <i
+                class="fas fa-map-marker-alt"
+                style="color: #28a745; font-size: 18px"
+              ></i>
+              <span><strong>Location:</strong> Istanbul, Turkey</span>
+            </li>
+            <li
+              style="
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 10px;
+              "
+            >
+              <i
+                class="fab fa-linkedin"
+                style="color: #0a66c2; font-size: 18px"
+              ></i>
+              <span
+                ><strong>LinkedIn:</strong>
+                <a
+                  href="https://www.linkedin.com/in/erhan-ikinci-1a895a183/"
+                  target="_blank"
+                  style="color: #0a66c2; text-decoration: none"
+                  >linkedin.com/in/erhan-ikinci</a
+                ></span
+              >
+            </li>
+            <li
+              style="
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 10px;
+              "
+            >
+              <i class="fab fa-github" style="color: #333; font-size: 18px"></i>
+              <span
+                ><strong>GitHub:</strong>
+                <a
+                  href="https://github.com/erhanikinci"
+                  target="_blank"
+                  style="color: #333; text-decoration: none"
+                  >github.com/erhanikinci</a
+                ></span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
 
-
-
-
-
-
-
-		<!-- About Me -->
-		<section id="about-me">
-			<header>
-				<h2>About Me</h2>
-			</header>
-			<div class="content">
-				<p><strong>Who am I?</strong></p>
-				<p>I am a well-qualified Full Stack Developer with a passion for technology and innovation. I have
-					experience in both backend and frontend development, making me a versatile asset for any project.
-					Beyond
-					coding, I thrive on analyzing complex problems and designing optimal solutions that drive business
-					success.
-					My strong foundation in software engineering principles ensures high-quality and maintainable
-					software.
-					Whether it’s building secure APIs, optimizing database queries, or crafting intuitive user
-					interfaces, I
-					am dedicated to delivering exceptional results that exceed expectations.</p>
-				<ul style="list-style: none; padding: 0; margin: 0; font-size: 16px; line-height: 1.8; color: #333;">
-					<li style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-						<i class="fas fa-envelope" style="color: #007bff; font-size: 18px;"></i>
-						<span><strong>Email:</strong> <a href="mailto:erhanikinci61@gmail.com"
-								style="color: #007bff; text-decoration: none;">erhanikinci61@gmail.com</a></span>
-					</li>
-					<li style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-						<i class="fas fa-map-marker-alt" style="color: #28a745; font-size: 18px;"></i>
-						<span><strong>Location:</strong> Istanbul, Turkey</span>
-					</li>
-					<li style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-						<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 18px;"></i>
-						<span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/erhan-ikinci-1a895a183/"
-								target="_blank"
-								style="color: #0a66c2; text-decoration: none;">linkedin.com/in/erhan-ikinci</a></span>
-					</li>
-					<li style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-						<i class="fab fa-github" style="color: #333; font-size: 18px;"></i>
-						<span><strong>GitHub:</strong> <a href="https://github.com/erhanikinci" target="_blank"
-								style="color: #333; text-decoration: none;">github.com/erhanikinci</a></span>
-					</li>
-				</ul>
-
-			</div>
-		</section>
-
-
-		<!-- Skills -->
-		<!-- <section>
+      <!-- Skills -->
+      <!-- <section>
 			<header>
 				<h2 style="text-align: center; font-size: 24px; margin-bottom: 20px; color: #333; font-weight: bold;">
 					What I’m Good At
@@ -353,349 +731,537 @@
 				</div>
 			</div>
 		</section> -->
-		<section>
-	<header>
-		<h2 style="text-align: center; font-size: 24px; margin-bottom: 20px; color: #333; font-weight: bold;">
-			Core Technical Expertise
-		</h2>
-	</header>
-
-	<div class="content" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px;">
-
-		<div style="width: 240px; text-align: center; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 22px;">
-			<i class="fas fa-server" style="font-size: 36px; color: #007bff; margin-bottom: 10px;"></i>
-			<h4 style="font-size: 17px; color: #333; margin-bottom: 8px;">Backend Development</h4>
-			<p style="font-size: 14px; color: #555;">PHP, Laravel, CodeIgniter 4, Node.js, ASP.NET Core, REST APIs, authentication and business logic.</p>
-		</div>
-
-		<div style="width: 240px; text-align: center; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 22px;">
-			<i class="fab fa-react" style="font-size: 36px; color: #61dafb; margin-bottom: 10px;"></i>
-			<h4 style="font-size: 17px; color: #333; margin-bottom: 8px;">Web & Mobile Applications</h4>
-			<p style="font-size: 14px; color: #555;">React.js, React Native, Next.js, JavaScript, TypeScript, responsive UI and mobile-first application development.</p>
-		</div>
-
-		<div style="width: 240px; text-align: center; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 22px;">
-			<i class="fas fa-database" style="font-size: 36px; color: #28a745; margin-bottom: 10px;"></i>
-			<h4 style="font-size: 17px; color: #333; margin-bottom: 8px;">SQL Reporting & Databases</h4>
-			<p style="font-size: 14px; color: #555;">SQL, MySQL, MongoDB, database-driven reporting screens, filtering, data analysis and query optimization.</p>
-		</div>
-
-		<div style="width: 240px; text-align: center; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 22px;">
-			<i class="fas fa-network-wired" style="font-size: 36px; color: #f39c12; margin-bottom: 10px;"></i>
-			<h4 style="font-size: 17px; color: #333; margin-bottom: 8px;">ERP Integration</h4>
-			<p style="font-size: 14px; color: #555;">Canias ERP, service integrations, enterprise workflows, portal systems and business process automation.</p>
-		</div>
-
-		<div style="width: 240px; text-align: center; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 22px;">
-			<i class="fas fa-plug" style="font-size: 36px; color: #ff5733; margin-bottom: 10px;"></i>
-			<h4 style="font-size: 17px; color: #333; margin-bottom: 8px;">API Development</h4>
-			<p style="font-size: 14px; color: #555;">REST API development, external service connections, request/response handling, debugging and integration testing.</p>
-		</div>
-
-		<div style="width: 240px; text-align: center; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 22px;">
-			<i class="fas fa-bug" style="font-size: 36px; color: #6f42c1; margin-bottom: 10px;"></i>
-			<h4 style="font-size: 17px; color: #333; margin-bottom: 8px;">Debugging & Production Support</h4>
-			<p style="font-size: 14px; color: #555;">Log analysis, request tracing, deployment troubleshooting, performance issues and root-cause investigation.</p>
-		</div>
-
-	</div>
-</section>
-
-
-
-		<!-- Portfolio -->
-		<!-- Portfolio -->
-<section>
-	<header>
-		<h2>Featured Projects & Enterprise Applications</h2>
-	</header>
-
-	<div class="content"
-		style="display: flex; flex-direction: column; gap: 24px; align-items: center; padding: 20px;">
-
-		<!-- Project 1 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				Enterprise Sales Portal System
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a large-scale enterprise sales portal platform serving more than
-				<strong>5,000+ users</strong> with role-based authorization including
-				<strong>Super Admin</strong>, <strong>Admin</strong>, and
-				<strong>Sub User</strong> management.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The platform included customer management, order workflows,
-				reporting screens, ERP integrations, and operational process management.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				PHP, Laravel, JavaScript, MySQL, ERP Integration, REST API
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Improved operational efficiency, user management,
-				and reporting accessibility across enterprise workflows.
-			</p>
-		</div>
-
-		<!-- Project 2 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				Warehouse Hand Terminal Application
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a mobile warehouse management application designed for
-				hand terminal devices to support barcode scanning,
-				stock management, picking operations,
-				and warehouse workflows.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The application was integrated with ERP services and optimized
-				for operational speed and real-time field usage.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				React Native, TypeScript, REST API, ERP Integration
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Reduced manual operational errors and improved warehouse workflow efficiency.
-			</p>
-		</div>
-
-		<!-- Project 3 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				Corporate Promotion Mobile Application
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a mobile application designed to present company products,
-				campaigns, catalogs, and services through a modern
-				and user-friendly mobile interface.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The project focused on responsive mobile design,
-				customer interaction, and digital product presentation.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				React Native, JavaScript, Mobile UI Development
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Improved digital customer engagement and mobile accessibility for company services.
-			</p>
-		</div>
-
-		<!-- Project 4 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				CNC & Generator Sales Portal
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a web-based enterprise portal for CNC machine
-				and generator sales operations including product management,
-				customer workflows, reporting, and order management systems.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The platform included ERP-connected backend services,
-				role-based authorization, and SQL-driven reporting screens.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				PHP, Laravel, MySQL, ERP Integration, SQL Reporting
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Improved product visibility, customer management,
-				and operational reporting processes.
-			</p>
-		</div>
-
-		<!-- Project 5 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				Cargo Distribution Mobile Application
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a logistics-focused mobile application for cargo distribution,
-				delivery tracking, operational route management,
-				and field operation workflows.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The application supported real-time operational management
-				and mobile workforce processes through API integrations.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				React Native, JavaScript, REST API, Mobile Operations
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Improved delivery process visibility and operational tracking efficiency.
-			</p>
-		</div>
-
-		<!-- Project 6 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				Fleet Management System (FMS-CMS)
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a fleet and operational management platform
-				for vehicle tracking, workflow management,
-				and operational monitoring processes.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The system focused on scalable architecture,
-				responsive interfaces, and operational reporting.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				Node.js, TypeScript, TailwindCSS, MongoDB
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Improved operational visibility and fleet management workflows.
-			</p>
-		</div>
-
-		<!-- Project 7 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				Battery Tracking Application
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a tracking and management application
-				for monitoring battery-related operational records
-				and workflow processes.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The project included database-driven management screens,
-				record tracking, and operational reporting capabilities.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				PHP, CodeIgniter 4, Bootstrap, MySQL
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Improved traceability and operational data management processes.
-			</p>
-		</div>
-
-		<!-- Project 8 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				MDVR Web Application
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a web-based application for operational management,
-				system monitoring, and data-driven workflow processes.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The application included backend management screens,
-				reporting modules, and database-connected operations.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				PHP, JavaScript, MySQL
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Improved operational monitoring and centralized workflow management.
-			</p>
-		</div>
-
-		<!-- Project 9 -->
-		<div
-			style="width: 100%; max-width: 560px; background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 8px 18px rgba(0,0,0,0.08);">
-
-			<h3 style="margin-bottom: 12px; color: #222;">
-				Teltonika Web Project
-			</h3>
-
-			<p style="color: #555; line-height: 1.8;">
-				Developed a modern web application focused on responsive interfaces,
-				user experience, and operational web workflows.
-			</p>
-
-			<p style="color: #555; line-height: 1.8;">
-				The project emphasized frontend responsiveness,
-				clean UI architecture, and scalable web components.
-			</p>
-
-			<p style="margin-top: 15px;">
-				<strong>Tech Stack:</strong>
-				React.js, TailwindCSS, MySQL
-			</p>
-
-			<p>
-				<strong>Business Impact:</strong>
-				Improved usability, interface responsiveness,
-				and operational accessibility.
-			</p>
-		</div>
-
-	</div>
-</section>
-
-		<!-- Contact Me -->
-		<section>
-			<header>
-				<h2>Contact Me</h2>
-			</header>
-			<div class="content">
-				<!-- <form method="post" action="#">
+      <section>
+        <header>
+          <h2
+            style="
+              text-align: center;
+              font-size: 24px;
+              margin-bottom: 20px;
+              color: #333;
+              font-weight: bold;
+            "
+          >
+            Core Technical Expertise
+          </h2>
+        </header>
+
+        <div
+          class="content"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+          "
+        >
+          <div
+            style="
+              width: 240px;
+              text-align: center;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              padding: 22px;
+            "
+          >
+            <i
+              class="fas fa-server"
+              style="font-size: 36px; color: #007bff; margin-bottom: 10px"
+            ></i>
+            <h4 style="font-size: 17px; color: #333; margin-bottom: 8px">
+              Backend Development
+            </h4>
+            <p style="font-size: 14px; color: #555">
+              PHP, Laravel, CodeIgniter 4, Node.js, ASP.NET Core, REST APIs,
+              authentication and business logic.
+            </p>
+          </div>
+
+          <div
+            style="
+              width: 240px;
+              text-align: center;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              padding: 22px;
+            "
+          >
+            <i
+              class="fab fa-react"
+              style="font-size: 36px; color: #61dafb; margin-bottom: 10px"
+            ></i>
+            <h4 style="font-size: 17px; color: #333; margin-bottom: 8px">
+              Web & Mobile Applications
+            </h4>
+            <p style="font-size: 14px; color: #555">
+              React.js, React Native, Next.js, JavaScript, TypeScript,
+              responsive UI and mobile-first application development.
+            </p>
+          </div>
+
+          <div
+            style="
+              width: 240px;
+              text-align: center;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              padding: 22px;
+            "
+          >
+            <i
+              class="fas fa-database"
+              style="font-size: 36px; color: #28a745; margin-bottom: 10px"
+            ></i>
+            <h4 style="font-size: 17px; color: #333; margin-bottom: 8px">
+              SQL Reporting & Databases
+            </h4>
+            <p style="font-size: 14px; color: #555">
+              SQL, MySQL, MongoDB, database-driven reporting screens, filtering,
+              data analysis and query optimization.
+            </p>
+          </div>
+
+          <div
+            style="
+              width: 240px;
+              text-align: center;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              padding: 22px;
+            "
+          >
+            <i
+              class="fas fa-network-wired"
+              style="font-size: 36px; color: #f39c12; margin-bottom: 10px"
+            ></i>
+            <h4 style="font-size: 17px; color: #333; margin-bottom: 8px">
+              ERP Integration
+            </h4>
+            <p style="font-size: 14px; color: #555">
+              Canias ERP, service integrations, enterprise workflows, portal
+              systems and business process automation.
+            </p>
+          </div>
+
+          <div
+            style="
+              width: 240px;
+              text-align: center;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              padding: 22px;
+            "
+          >
+            <i
+              class="fas fa-plug"
+              style="font-size: 36px; color: #ff5733; margin-bottom: 10px"
+            ></i>
+            <h4 style="font-size: 17px; color: #333; margin-bottom: 8px">
+              API Development
+            </h4>
+            <p style="font-size: 14px; color: #555">
+              REST API development, external service connections,
+              request/response handling, debugging and integration testing.
+            </p>
+          </div>
+
+          <div
+            style="
+              width: 240px;
+              text-align: center;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              padding: 22px;
+            "
+          >
+            <i
+              class="fas fa-bug"
+              style="font-size: 36px; color: #6f42c1; margin-bottom: 10px"
+            ></i>
+            <h4 style="font-size: 17px; color: #333; margin-bottom: 8px">
+              Debugging & Production Support
+            </h4>
+            <p style="font-size: 14px; color: #555">
+              Log analysis, request tracing, deployment troubleshooting,
+              performance issues and root-cause investigation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <!-- Portfolio -->
+      <section>
+        <header>
+          <h2>Featured Projects & Enterprise Applications</h2>
+        </header>
+
+        <div
+          class="content"
+          style="
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+            padding: 20px;
+          "
+        >
+          <!-- Project 1 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              Enterprise Sales Portal System
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a large-scale enterprise sales portal platform serving
+              more than
+              <strong>5,000+ users</strong> with role-based authorization
+              including <strong>Super Admin</strong>, <strong>Admin</strong>,
+              and <strong>Sub User</strong> management.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The platform included customer management, order workflows,
+              reporting screens, ERP integrations, and operational process
+              management.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              PHP, Laravel, JavaScript, MySQL, ERP Integration, REST API
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Improved operational efficiency, user management, and reporting
+              accessibility across enterprise workflows.
+            </p>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              Warehouse Hand Terminal Application
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a mobile warehouse management application designed for
+              hand terminal devices to support barcode scanning, stock
+              management, picking operations, and warehouse workflows.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The application was integrated with ERP services and optimized for
+              operational speed and real-time field usage.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              React Native, TypeScript, REST API, ERP Integration
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Reduced manual operational errors and improved warehouse workflow
+              efficiency.
+            </p>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              Corporate Promotion Mobile Application
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a mobile application designed to present company
+              products, campaigns, catalogs, and services through a modern and
+              user-friendly mobile interface.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The project focused on responsive mobile design, customer
+              interaction, and digital product presentation.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              React Native, JavaScript, Mobile UI Development
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Improved digital customer engagement and mobile accessibility for
+              company services.
+            </p>
+          </div>
+
+          <!-- Project 4 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              CNC & Generator Sales Portal
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a web-based enterprise portal for CNC machine and
+              generator sales operations including product management, customer
+              workflows, reporting, and order management systems.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The platform included ERP-connected backend services, role-based
+              authorization, and SQL-driven reporting screens.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              PHP, Laravel, MySQL, ERP Integration, SQL Reporting
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Improved product visibility, customer management, and operational
+              reporting processes.
+            </p>
+          </div>
+
+          <!-- Project 5 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              Cargo Distribution Mobile Application
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a logistics-focused mobile application for cargo
+              distribution, delivery tracking, operational route management, and
+              field operation workflows.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The application supported real-time operational management and
+              mobile workforce processes through API integrations.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              React Native, JavaScript, REST API, Mobile Operations
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Improved delivery process visibility and operational tracking
+              efficiency.
+            </p>
+          </div>
+
+          <!-- Project 6 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              Fleet Management System (FMS-CMS)
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a fleet and operational management platform for vehicle
+              tracking, workflow management, and operational monitoring
+              processes.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The system focused on scalable architecture, responsive
+              interfaces, and operational reporting.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              Node.js, TypeScript, TailwindCSS, MongoDB
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Improved operational visibility and fleet management workflows.
+            </p>
+          </div>
+
+          <!-- Project 7 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              Battery Tracking Application
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a tracking and management application for monitoring
+              battery-related operational records and workflow processes.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The project included database-driven management screens, record
+              tracking, and operational reporting capabilities.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              PHP, CodeIgniter 4, Bootstrap, MySQL
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Improved traceability and operational data management processes.
+            </p>
+          </div>
+
+          <!-- Project 8 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              MDVR Web Application
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a web-based application for operational management,
+              system monitoring, and data-driven workflow processes.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The application included backend management screens, reporting
+              modules, and database-connected operations.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              PHP, JavaScript, MySQL
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Improved operational monitoring and centralized workflow
+              management.
+            </p>
+          </div>
+
+          <!-- Project 9 -->
+          <div
+            style="
+              width: 100%;
+              max-width: 560px;
+              background: #fff;
+              border-radius: 14px;
+              padding: 28px;
+              box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <h3 style="margin-bottom: 12px; color: #222">
+              Teltonika Web Project
+            </h3>
+
+            <p style="color: #555; line-height: 1.8">
+              Developed a modern web application focused on responsive
+              interfaces, user experience, and operational web workflows.
+            </p>
+
+            <p style="color: #555; line-height: 1.8">
+              The project emphasized frontend responsiveness, clean UI
+              architecture, and scalable web components.
+            </p>
+
+            <p style="margin-top: 15px">
+              <strong>Tech Stack:</strong>
+              React.js, TailwindCSS, MySQL
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong>
+              Improved usability, interface responsiveness, and operational
+              accessibility.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Me -->
+      <section>
+        <header>
+          <h2>Contact Me</h2>
+        </header>
+        <div class="content">
+          <!-- <form method="post" action="#">
 					<div class="fields">
 						<div class="field half">
 							<input type="text" name="name" id="name" placeholder="Your Name" />
@@ -712,46 +1278,48 @@
 					</ul>
 				</form> -->
 
-				<a href="mailto:erhanikinci61@gmail.com" class="button primary">Send Email</a>
+          <a href="mailto:erhanikinci61@gmail.com" class="button primary"
+            >Send Email</a
+          >
+        </div>
+        <footer>
+          <p>
+            &copy; <span id="currentYear"></span> Erhan İkinci. All rights
+            reserved.
+            <!-- <a href="#" onclick="scrollToTop()">Başa dön</a>. -->
+            <a href="#" onclick="scrollToTop()">Go to the beginning</a>.
+          </p>
+        </footer>
+      </section>
+    </div>
 
-				
-			</div>
-			<footer>
-				<p>&copy; <span id="currentYear"></span> Erhan İkinci. All rights reserved.
-					<!-- <a href="#" onclick="scrollToTop()">Başa dön</a>. -->
-					<a href="#" onclick="scrollToTop()">Go to the beginning</a>.
-				</p>
-			</footer>
-		</section>
-	</div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+    <script>
+      // Dinamik yıl için
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
 
-	<script>
-		// Dinamik yıl için
-		document.getElementById("currentYear").textContent = new Date().getFullYear();
+      // Sayfanın en üstüne kaydırma işlevi
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // Yumuşak kaydırma
+        });
+      }
+    </script>
 
-		// Sayfanın en üstüne kaydırma işlevi
-		function scrollToTop() {
-			window.scrollTo({
-				top: 0,
-				behavior: 'smooth' // Yumuşak kaydırma
-			});
-		}
-	</script>
-
-	<!-- <style>
+    <!-- <style>
 		i {
 			font-size: 36px;
 			margin-bottom: 10px;
 		}
 	</style> -->
-</body>
-
+  </body>
 </html>
